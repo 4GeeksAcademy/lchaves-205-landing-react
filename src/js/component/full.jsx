@@ -4,15 +4,13 @@ import Container from "./container";
 import Footer from "./footer";
 
 function Full() {
-    return(
+    return (
         <div>
-        <Navbar/>
-        <Container/>
-        <Footer/>
+            <Navbar />
+            <Container />
+            <Footer />
         </div>
-         
-    )
-    
+    );
 }
 
 export default Full;
